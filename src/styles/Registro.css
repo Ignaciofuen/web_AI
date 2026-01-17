@@ -1,0 +1,52 @@
+.register-page {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.register-card {
+  background-color: #080808 !important;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 24px !important;
+}
+
+.register-title {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.register-label {
+  color: #555;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.register-input {
+  background-color: #000 !important;
+  border: 1px solid #222 !important;
+  color: #fff !important;
+  padding: 12px !important;
+  border-radius: 10px !important;
+}
+
+.register-input:focus {
+  border-color: #00B4FF !important;
+  box-shadow: none !important;
+}
+
+.btn-register {
+  background-color: #00B4FF !important;
+  border: none !important;
+  padding: 14px !important;
+  border-radius: 10px !important;
+  transition: 0.3s;
+}
+
+.btn-register:hover {
+  background-color: #0090cc !important;
+  transform: translateY(-2px);
+}
+
+.text-cyan {
+  color: #00B4FF;
+}

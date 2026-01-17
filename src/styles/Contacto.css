@@ -1,0 +1,73 @@
+.contacto-page {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.text-cyan {
+  color: #00B4FF;
+}
+
+.description-text {
+  color: #888;
+  font-size: 1.15rem;
+  max-width: 450px;
+}
+
+.info-icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00B4FF;
+  font-size: 1.2rem;
+}
+
+
+.form-container-glass {
+  background-color: #080808;
+  border: 1px solid #1a1a1a;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+.small-label {
+  color: #555;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.input-dark {
+  background-color: #000 !important;
+  border: 1px solid #222 !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  padding: 12px 15px !important;
+}
+
+.input-dark::placeholder {
+  color: #333;
+}
+
+.input-dark:focus {
+  border-color: #00B4FF !important;
+  box-shadow: none !important;
+}
+
+.btn-send-contact {
+  background-color: #00B4FF !important;
+  border: none !important;
+  border-radius: 12px !important;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.btn-send-contact:hover {
+  background-color: #0090cc !important;
+  transform: translateY(-2px);
+}

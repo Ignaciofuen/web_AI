@@ -1,0 +1,155 @@
+.footer-dark {
+  background-color: #000000;
+  padding: 100px 0 40px;
+  border-top: 1px solid #111;
+}
+
+.brand-dot {
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(90deg, #E91E63, #00B4FF);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-text {
+  color: #555;
+  font-size: 0.95rem;
+  max-width: 320px;
+  line-height: 1.7;
+}
+
+.footer-dark h6 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-links li:hover {
+  color: #00B4FF;
+}
+
+.newsletter-box {
+  display: flex;
+  background: #0a0a0a;
+  border: 1px solid #222;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 50px;
+}
+
+.input-dark {
+  background: transparent !important;
+  border: none !important;
+  color: #fff !important;
+  padding-left: 15px;
+}
+
+.btn-send {
+  background-color: #00B4FF !important;
+  border: none !important;
+  width: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #111;
+  color: #333;
+}.footer-dark {
+  background-color: #000000;
+  padding: 100px 0 40px;
+  border-top: 1px solid #111;
+}
+
+.brand-dot {
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(90deg, #E91E63, #00B4FF);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-text {
+  color: #555;
+  font-size: 0.95rem;
+  max-width: 320px;
+  line-height: 1.7;
+}
+
+.footer-dark h6 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-links li:hover {
+  color: #00B4FF;
+}
+
+.newsletter-box {
+  display: flex;
+  background: #0a0a0a;
+  border: 1px solid #222;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 50px;
+}
+
+.input-dark {
+  background: transparent !important;
+  border: none !important;
+  color: #fff !important;
+  padding-left: 15px;
+}
+
+.btn-send {
+  background-color: #00B4FF !important;
+  border: none !important;
+  width: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #111;
+  color: #333;
+}
