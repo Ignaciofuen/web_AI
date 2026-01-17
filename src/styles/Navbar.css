@@ -47,3 +47,44 @@
   font-size: 0.85rem !important;
   border: none !important;
 }
+
+@media (max-width: 991px) {
+  
+  .navbar-collapse {
+    background-color: rgba(10, 10, 10, 0.87); 
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+    
+    animation: slideInMenu 0.4s ease-out forwards;
+  }
+
+
+  @keyframes slideInMenu {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  
+  .nav-link {
+    opacity: 0;
+    animation: fadeInLink 0.3s ease-out forwards;
+  }
+
+  
+  .nav-link:nth-child(1) { animation-delay: 0.1s; }
+  .nav-link:nth-child(2) { animation-delay: 0.2s; }
+  .nav-link:nth-child(3) { animation-delay: 0.3s; }
+
+  @keyframes fadeInLink {
+    to { opacity: 1; }
+  }
+}
